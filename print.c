@@ -2,9 +2,10 @@
 
 /*
  * print: custom printf function
+ *
  */
 
-void print(const char *format)
+void print(const char *pnt)
 {
-	write (STDOUT_FILENO, format,strlen(format);
-	}
+	write (STDOUT_FILENO, pnt,strlen(pnt));
+}
