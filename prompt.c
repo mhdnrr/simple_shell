@@ -1,6 +1,6 @@
 #include"shell.h"
 
-void display_shell(void)
+void star_shell(void)
 {
-    print("shell$");
+	print("shell$");
 }
