@@ -1,6 +1,11 @@
 #include"shell.h"
 
-void star_shell(void)
+/*
+ * Description: function printing a prompt string
+ *
+ */
+
+void start_shell(void)
 {
 	print("shell$");
 }
