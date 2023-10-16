@@ -1,11 +1,13 @@
 #include "shell.h"
 
 /*
- * Description: standard library functions like printf()
+ * Prints the given string to standard output
+ * @print:
  *
+ * pnt: The string to be printed
  */
 
-void print(const char *pnt)
+void print(const char *prt)
 {
-	write(STDOUT_FILENO, pnt, strlen(pnt));
+	write(STDOUT_FILENO, prt, strlen(prt));
 }
