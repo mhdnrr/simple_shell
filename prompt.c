@@ -1,11 +1,19 @@
 #include"shell.h"
 
 /*
- * Description: function printing a prompt string
+ * Starts the shell and prompts the user for input
+ * @start_shell:
  *
  */
 
 void start_shell(void)
 {
-	print("shell$");
+	char *cmd = NULL;
+	size_t size = 0;
+
+	print("shell$ ");
+	read_cmd(&cmd, &size);
+	execute_cmd(cmd);
+
+	free(cmd);
 }
