@@ -1,6 +1,7 @@
 #include "shell.h"
 
 /*
+ * The main function that runs the shell
  * @main:
  *
  */

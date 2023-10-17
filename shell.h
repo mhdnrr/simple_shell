@@ -3,11 +3,15 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdbool.h>
+#include <stddef.h>
 #include <sys/wait.h>
 #include <string.h>
 #include <unistd.h>
 
-void star_shell(void);
 void print(const char *pnt);
+void start_shell(void);
+void read_cmd(char **cmd, size_t *size);
+void execute_cmd(const char *cmd);
 
 #endif
