@@ -16,7 +16,7 @@ void execute_cmd(const char *cmd)
 	}
 	else if (pid == 0)
 	{
-		execlp(cmd, cmd, NULL);
+		execlp("/bin/sh", "sh", "-c", cmd, NULL);
 		print("Error\n");
 		exit(EXIT_FAILURE);
 	}
