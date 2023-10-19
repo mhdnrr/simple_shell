@@ -1,6 +1,6 @@
 #include"shell.h"
 
-/*
+/**
  * start_shell - Starts the shell and prompts the user for input.
  */
 
