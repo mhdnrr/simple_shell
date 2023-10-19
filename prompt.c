@@ -6,12 +6,17 @@
 
 void start_shell(void)
 {
-	char *cmd = NULL;
-	size_t size = 0;
+	char cmd[MAX_COMMAND_LENGTH];
 
 	print("shell$ ");
-	read_cmd(&cmd, &size);
-	execute_cmd(cmd);
+	while (fgets(cmd, sizeof(cmd), stdin) != NULL)
+	{
+		cmd[strcspn(cmd, "\n")] = '\0';
 
-	free(cmd);
+		execute_cmd(cmd);
+
+		print("shell$ ");
+	}
+
+	print("\n");
 }
