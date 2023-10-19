@@ -1,11 +1,11 @@
 #include "shell.h"
 
 /*
- * Reads a command from standard input and stores it in a buffer
- * @read_cmd:
+ * Reads a command from standard input and stores it in a buffer.
  *
- * cmd: A pointer to a character pointer that will store the command
- * size: A pointer to a size_t variable that will store the size of the buffer
+ * Parameters:
+ *   cmd: A pointer to a character pointer that will store the command.
+ *   size: A pointer to a size_t variable that will store the size of the buffer.
  */
 
 void read_cmd(char **cmd, size_t *size)

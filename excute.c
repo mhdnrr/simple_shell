@@ -1,10 +1,10 @@
 #include "shell.h"
 
 /*
- * Executes the given command using a child process
- * @execute_cmd:
- *
- * cmd: The command to execute
+ * Executes the given command using a child process.
+ * 
+ * Parameters:
+ *   cmd: The command to execute.
  */
 
 void execute_cmd(const char *cmd)

@@ -1,11 +1,10 @@
 #include "shell.h"
 
 /*
- * Function: print
- * @print:
- * Prints the given string to the standard output
+ * Prints the given string to the standard output.
  *
- * prt: The string to be printed
+ * Parameters:
+ *   prt: The string to be printed.
  */
 
 void print(const char *prt)

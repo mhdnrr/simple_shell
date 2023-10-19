@@ -1,9 +1,7 @@
 #include"shell.h"
 
 /*
- * Starts the shell and prompts the user for input
- * @start_shell:
- *
+ * Starts the shell and prompts the user for input.
  */
 
 void start_shell(void)
