@@ -12,5 +12,5 @@ int main(void)
 	{
 		start_shell();
 	}
-	return 0;
+	return (0);
 }
