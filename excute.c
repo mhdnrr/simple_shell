@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /*
- * Executes the given command using a child process.
+ * execute_cmd - Executes the given command using a child process.
  * @cmd: The command to execute.
  */
 

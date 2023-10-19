@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /*
- * Prints the given string to the standard output.
+ * print - Prints the given string to the standard output.
  * @prt: The string to be printed.
  */
 

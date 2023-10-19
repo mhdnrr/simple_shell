@@ -1,8 +1,9 @@
 #include "shell.h"
 
-/*
- * The main function that runs the shell
- * @main:
+/**
+ * main - The main function that runs the shell.
+ *
+ * Return: Always 0.
  */
 
 int main(void)
