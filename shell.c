@@ -3,7 +3,6 @@
 /*
  * The main function that runs the shell
  * @main:
- *
  */
 
 int main(void)
