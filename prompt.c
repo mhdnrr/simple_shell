@@ -6,12 +6,19 @@
 
 void start_shell(void)
 {
+	char **args;
+	size_t argc;
 	char *cmd = NULL;
 	size_t size = 0;
 
-	print("shell$ ");
+	print("#cisfun$ ");
 	read_cmd(&cmd, &size);
-	execute_cmd(cmd);
+
+
+	args = parse_cmd(cmd, &argc);
+
+	execute_cmd((const char **)args);
 
 	free(cmd);
+	free(args);
 }
