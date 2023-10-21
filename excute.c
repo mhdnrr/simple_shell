@@ -7,7 +7,9 @@
 
 void execute_cmd(const char *cmd)
 {
-	pid_t pid = fork();
+	pid_t pid;
+
+	pid = fork();
 
 	if (pid < 0)
 	{
